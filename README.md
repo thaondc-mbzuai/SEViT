@@ -1,7 +1,7 @@
-# Group G06
-Thao Do Chi Nguyen, Junchen Liu, Xiwei Liu
+# AI701 project : "Enhanced Vision Transformer for Robustness against adversarial attacks on Medical Image Classification"
+##Group G06
 
-This repository includes the source code for for team G006's AI701 project : "Enhanced Vision Transformer for Robustness against adversarial attacks on Medical Image Classification"
+Thao Do Chi Nguyen, Junchen Liu, Xiwei Liu
 
 ![Method](Figures/Method.jpg)
 
@@ -27,7 +27,7 @@ For example:
 * Malaria dataset should be move to "SEViT/data/Malaria"
 
 ## Download ViT and Intermediate MLPs
-Download the finetuned ViTs and trained MLPs from [here](). 
+Download the finetuned ViTs and trained MLPs from [here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/thao_nguyen_mbzuai_ac_ae/EtOu8cFJ_6pIsQ2rdAjr7rMBjhVE1mm9SUMPXCGmcTUavw?e=3MHQdD). 
 
 **Move the donwloaded files to corresponding folder in `models` directory**
 
