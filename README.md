@@ -16,7 +16,7 @@ Vision Transformers (ViTs) have become powerful tools in the field of medicine. 
 
 [Malaria Cells dataset](https://www.kaggle.com/datasets/iarunava/cell-images-for-detecting-malaria),[3] which we mention as Fundoscopy in this project. The dataset encompasses 3,662 retina images which are specifically curated to facilitate the diagnosis of diabetic retinopathy (DR). From the original dataset with 5 classes, we have converted this dataset into a binary classification task by labeling the images as DR or Normal
 
-**Move the donwloaded dataset to corresponding folder in `data` directory**
+**Move the downloaded dataset to corresponding folder in `data` directory**
 
 For example: 
 
@@ -26,20 +26,17 @@ For example:
 
 * Malaria dataset should be move to "SEViT/data/Malaria"
 
-**Move the downloaded folder to `data` directory**
-
 ## Download ViT and Intermediate MLPs
-Download the finetuned ViT from [here]() and trained MLPs from [here](). 
+Download the finetuned ViTs and trained MLPs from [here](). 
 
 **Move the donwloaded files to corresponding folder in `models` directory**
 
 For example: 
+* Finetuned ViT on X-ray dataset should be move to "SEViT/models/X-ray"
 
-Finetuned ViT on X-ray dataset should be move to "SEViT/models/X-ray"
+* Trained MLPs on X-ray dataset should be move to "SEViT/models/X-ray/MLP"
 
-Trained MLPs on X-ray dataset should be move to "SEViT/models/X-ray/MLP"
-
-Trained EfficientnetB0 on X-ray dataset should be move to "SEViT/models/X-ray/B0"
+* Trained EfficientnetB0 on X-ray dataset should be move to "SEViT/models/X-ray/B0"
 
 ## Install dependencies
 You should implement this project on python 3.8.
