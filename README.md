@@ -1,5 +1,7 @@
-# Self-Ensembling Vision Transformer (SEViT) for Robust Medical Image Classification. 
-This repository includes the source code for for team G006's AI701 project : ""
+# Group G06
+Thao Do Chi Nguyen, Junchen Liu, Xiwei Liu
+
+This repository includes the source code for for team G006's AI701 project : "Enhanced Vision Transformer for Robustness against adversarial attacks on Medical Image Classification"
 
 ![Method](Figures/Method.jpg)
 
