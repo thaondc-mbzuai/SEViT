@@ -15,13 +15,14 @@ Vision Transformers (ViTs) have become powerful tools in the field of medicine. 
 [Malaria Cells dataset](https://www.kaggle.com/datasets/iarunava/cell-images-for-detecting-malaria),[3] which we mention as Fundoscopy in this project. The dataset encompasses 3,662 retina images which are specifically curated to facilitate the diagnosis of diabetic retinopathy (DR). From the original dataset with 5 classes, we have converted this dataset into a binary classification task by labeling the images as DR or Normal
 
 **Move the donwloaded dataset to corresponding folder in `data` directory**
+
 For example: 
 
-Chest X-ray dataset should be move to "SEViT/data/X-ray"
+* Chest X-ray dataset should be move to "SEViT/data/X-ray"
 
-Fundoscopy dataset should be move to "SEViT/data/Fundoscopy"
+* Fundoscopy dataset should be move to "SEViT/data/Fundoscopy"
 
-Malaria dataset should be move to "SEViT/data/Malaria"
+* Malaria dataset should be move to "SEViT/data/Malaria"
 
 **Move the downloaded folder to `data` directory**
 
