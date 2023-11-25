@@ -73,7 +73,7 @@ python generate_attacks.py --epsilons [perturbation size:float] --attack_list [a
 In order to evaluate **SEViT** on **Clean samples:** 
 
 ```
-python majority-voting.py python majority_voting_thao.py --vit_dir [path of the downloaded ViT model] --root_dir [path of the downloaded clean testing dataset] --mlp_dir [path of the trained mlp or EfficientnetB0]--images_type [clean or adversarial] --clf_type MLP [b0 or MLP]
+python majority_voting_thao.py python majority_voting_thao.py --vit_dir [path of the downloaded ViT model] --root_dir [path of the downloaded clean testing dataset] --mlp_dir [path of the trained mlp or EfficientnetB0]--images_type [clean or adversarial] --clf_type MLP [b0 or MLP]
 ```
 
 **As for MBZUAI students, you can use this line:** python majority_voting_thao.py --vit_dir /l/users/thao.nguyen/SEViT_MBZUAI/models/X-ray/m_best_model.pth --root_dir /l/users/thao.nguyen/SEViT_MBZUAI/data/X-ray/ --mlp_dir /l/users/thao.nguyen/SEViT_MBZUAI/models/X-ray/MLP/ --images_type clean --clf_type MLP
